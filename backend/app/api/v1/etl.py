@@ -1,5 +1,5 @@
 from fastapi import APIRouter, BackgroundTasks
-from backend.app.etl.pipeline import run_etl
+from app.etl.pipeline import run_etl
 
 router = APIRouter()
 
